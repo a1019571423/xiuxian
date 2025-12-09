@@ -11,8 +11,26 @@ config_version=5
 [application]
 
 config/name="xiuxian"
+run/main_scene="res://scenes/FormationScene.tscn"
 config/features=PackedStringArray("4.5", "C#", "GL Compatibility")
 config/icon="res://icon.svg"
+config/use_custom_window_icon=true
+
+[display]
+
+window/size/viewport_width=720
+window/size/viewport_height=1280
+window/stretch/mode="2d"
+window/handheld/orientation=1
+window/size/width=720
+window/size/height=1280
+window/always_on_top=false
+window/decorated=true
+window/resizeable=true
+window/transparent=false
+window/handheld/disable_portrait_upside_down=false
+window/handheld/disable_landscape_left=true
+window/handheld/disable_landscape_right=true
 
 [dotnet]
 

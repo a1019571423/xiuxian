@@ -1,0 +1,14 @@
+D:\Software\Godot_v4.5-stable_mono_win64\project\xiuxian\obj\Debug\net8.0\xiuxian.GeneratedMSBuildEditorConfig.editorconfig
+D:\Software\Godot_v4.5-stable_mono_win64\project\xiuxian\obj\Debug\net8.0\xiuxian.AssemblyInfoInputs.cache
+D:\Software\Godot_v4.5-stable_mono_win64\project\xiuxian\obj\Debug\net8.0\xiuxian.AssemblyInfo.cs
+D:\Software\Godot_v4.5-stable_mono_win64\project\xiuxian\obj\Debug\net8.0\xiuxian.csproj.CoreCompileInputs.cache
+D:\Software\Godot_v4.5-stable_mono_win64\project\xiuxian\obj\Debug\net8.0\xiuxian.sourcelink.json
+D:\Software\Godot_v4.5-stable_mono_win64\project\xiuxian\bin\Debug\net8.0\xiuxian.deps.json
+D:\Software\Godot_v4.5-stable_mono_win64\project\xiuxian\bin\Debug\net8.0\xiuxian.runtimeconfig.json
+D:\Software\Godot_v4.5-stable_mono_win64\project\xiuxian\bin\Debug\net8.0\xiuxian.dll
+D:\Software\Godot_v4.5-stable_mono_win64\project\xiuxian\bin\Debug\net8.0\xiuxian.pdb
+D:\Software\Godot_v4.5-stable_mono_win64\project\xiuxian\obj\Debug\net8.0\xiuxian.dll
+D:\Software\Godot_v4.5-stable_mono_win64\project\xiuxian\obj\Debug\net8.0\refint\xiuxian.dll
+D:\Software\Godot_v4.5-stable_mono_win64\project\xiuxian\obj\Debug\net8.0\xiuxian.pdb
+D:\Software\Godot_v4.5-stable_mono_win64\project\xiuxian\obj\Debug\net8.0\xiuxian.genruntimeconfig.cache
+D:\Software\Godot_v4.5-stable_mono_win64\project\xiuxian\obj\Debug\net8.0\ref\xiuxian.dll

@@ -1,0 +1,4 @@
+[gd_scene load_steps=1 format=3 uid="uid://br5wal3b8a22g"]
+
+[node name="FormationScene" type="Node2D"]
+script = "res://scripts/FormationEditor.cs"

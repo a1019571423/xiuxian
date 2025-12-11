@@ -61,7 +61,7 @@ public partial class FormationEditor : Node2D
         triangle.MouseFilter = Control.MouseFilterEnum.Stop;
         
         // 创建简单的三角形图像
-        var image = Image.Create(100, 100, false, Image.Format.Rgba8);
+        var image = Image.CreateEmpty(100, 100, false, Image.Format.Rgba8);
         image.Fill(Colors.Transparent);
         
         for (int i = 0; i < 100; i++)

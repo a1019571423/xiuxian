@@ -40,14 +40,12 @@ public partial class FormationEditor : Node2D
         circle.Size = new Vector2(100, 100);
         circle.Color = Colors.Blue;
         circle.Name = "CircleShape";
-        circle.InputPickable = true;
+        circle.MouseFilter = Control.MouseFilterEnum.Stop;
         
         var style = new StyleBoxFlat();
         style.BgColor = Colors.Blue;
-        style.BorderRadiusTopLeft = 50;
-        style.BorderRadiusTopRight = 50;
-        style.BorderRadiusBottomLeft = 50;
-        style.BorderRadiusBottomRight = 50;
+        // 在Godot 4.x中使用统一的圆角设置方法
+        style.SetCornerRadiusAll(50);
         circle.AddThemeStyleboxOverride("normal", style);
         
         circle.GuiInput += (e) => HandleShapeDrag(e, circle);
@@ -60,7 +58,7 @@ public partial class FormationEditor : Node2D
         triangle.Position = new Vector2(300, 200);
         triangle.Size = new Vector2(100, 100);
         triangle.Name = "TriangleShape";
-        triangle.InputPickable = true;
+        triangle.MouseFilter = Control.MouseFilterEnum.Stop;
         
         // 创建简单的三角形图像
         var image = Image.Create(100, 100, false, Image.Format.Rgba8);
@@ -105,17 +103,17 @@ public partial class FormationEditor : Node2D
         {
             if (mb.ButtonIndex == MouseButton.Left && mb.Pressed)
             {
-                control.Set("is_dragging", true);
-                control.Set("drag_offset", mb.Position);
+                control.SetMeta("is_dragging", true);
+                control.SetMeta("drag_offset", mb.Position);
             }
             else if (mb.ButtonIndex == MouseButton.Left && !mb.Pressed)
             {
-                control.Set("is_dragging", false);
+                control.SetMeta("is_dragging", false);
             }
         }
-        else if (@event is InputEventMouseMotion && (bool)control.Get("is_dragging"))
+        else if (@event is InputEventMouseMotion && (bool)control.GetMeta("is_dragging"))
         {
-            control.Position = GetLocalMousePosition() - (Vector2)control.Get("drag_offset");
+            control.Position = GetLocalMousePosition() - (Vector2)control.GetMeta("drag_offset");
         }
     }
     

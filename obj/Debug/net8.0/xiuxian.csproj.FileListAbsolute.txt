@@ -12,3 +12,11 @@ D:\Software\Godot_v4.5-stable_mono_win64\project\xiuxian\obj\Debug\net8.0\refint
 D:\Software\Godot_v4.5-stable_mono_win64\project\xiuxian\obj\Debug\net8.0\xiuxian.pdb
 D:\Software\Godot_v4.5-stable_mono_win64\project\xiuxian\obj\Debug\net8.0\xiuxian.genruntimeconfig.cache
 D:\Software\Godot_v4.5-stable_mono_win64\project\xiuxian\obj\Debug\net8.0\ref\xiuxian.dll
+D:\Software\Godot_v4.5-stable_mono_win64\project\xiuxian\obj\Debug\net8.0\xiuxian.csproj.AssemblyReference.cache
+D:\Software\Godot_v4.5-stable_mono_win64\project\xiuxian\bin\Debug\net8.0\GodotSharp.dll
+D:\Software\Godot_v4.5-stable_mono_win64\project\xiuxian\bin\Debug\net8.0\GodotSharpEditor.dll
+D:\Software\Godot_v4.5-stable_mono_win64\project\xiuxian\bin\Debug\net8.0\GodotSharp.pdb
+D:\Software\Godot_v4.5-stable_mono_win64\project\xiuxian\bin\Debug\net8.0\GodotSharp.xml
+D:\Software\Godot_v4.5-stable_mono_win64\project\xiuxian\bin\Debug\net8.0\GodotSharpEditor.pdb
+D:\Software\Godot_v4.5-stable_mono_win64\project\xiuxian\bin\Debug\net8.0\GodotSharpEditor.xml
+D:\Software\Godot_v4.5-stable_mono_win64\project\xiuxian\obj\Debug\net8.0\xiuxian.csproj.Up2Date

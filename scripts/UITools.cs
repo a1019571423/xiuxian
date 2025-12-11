@@ -8,7 +8,9 @@ public partial class UITools : Node
     public override void _Ready()
     {
         Instance = this;
-        SetAsTopLevel(true);
+        // 在Godot 4.x中，SetAsTopLevel方法已被移除
+        // 使用Owner = null可以实现类似效果
+        Owner = null;
     }
     
     public Label CreateTooltip(string message)

@@ -2,6 +2,27 @@
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <EnableDynamicLoading>true</EnableDynamicLoading>
-    <IsGodotProject>true</IsGodotProject>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
+  <PropertyGroup>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <AssemblyName>xiuxian</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <Reference Include="GodotSharp">
+      <HintPath>D:\Software\Godot_v4.5-stable_mono_win64\GodotSharp\Api\Debug\GodotSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="GodotSharpEditor">
+      <HintPath>D:\Software\Godot_v4.5-stable_mono_win64\GodotSharp\Api\Debug\GodotSharpEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup Condition=" '$(Configuration)' == 'Release' ">
+    <Reference Include="GodotSharp">
+      <HintPath>D:\Software\Godot_v4.5-stable_mono_win64\GodotSharp\Api\Release\GodotSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="GodotSharpEditor">
+      <HintPath>D:\Software\Godot_v4.5-stable_mono_win64\GodotSharp\Api\Release\GodotSharpEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>

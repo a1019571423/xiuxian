@@ -1,13 +1,10 @@
-[gd_scene load_steps=3 format=3 uid="uid://bfw9lqxxy7a1k"]
-
-[ext_resource type="Script" path="res://scenes/effects/EnergyParticle.gd" id="1_0w6v7"]
+[gd_scene load_steps=2 format=3 uid="uid://bfw9lqxxy7a1k"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_uz4k3"]
 
 radius = 5.0
 
 [node name="EnergyParticle" type="Node2D"]
-script = ExtResource( "1_0w6v7" )
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture_filter = 3
